@@ -16,4 +16,19 @@ body {
   background: var(--clr-bg);
   font-family: 'Balsamiq Sans', cursive;
   color: var(--clr-neon);
+  padding-right: 10rem;
+}
+
+.neon-button {
+  font-size: 4rem;
+
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-neon);
+
+  /* keep it em so everything will auto adjust according to the font-size */
+  border: currentColor 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
 }
