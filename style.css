@@ -36,4 +36,9 @@ body {
      The first two variable doesn't really matter as it's for white.
   */
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
+
+  /* 'inset' adds the shadow to the inside of the element.
+     If you want the shadow on both inside and outside the border (looks like the border is the light globe)
+   */
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
 }
