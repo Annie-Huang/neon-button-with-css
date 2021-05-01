@@ -31,4 +31,9 @@ body {
   border: currentColor 0.125em solid;
   padding: 0.25em 1em;
   border-radius: 0.25em;
+
+  /* 100% / 0.5 is the one that control the lightness
+     The first two variable doesn't really matter as it's for white.
+  */
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
 }
