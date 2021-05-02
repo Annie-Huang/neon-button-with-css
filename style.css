@@ -90,9 +90,9 @@ body {
   text-shadow: none;
 }
 
-.neon-button:hover::before {
-  opacity: 1;
-}
-.neon-button:hover::after {
+.neon-button:hover::before,
+.neon-button:focus::before,
+.neon-button:hover::after,
+.neon-button:focus::after {
   opacity: 1;
 }
