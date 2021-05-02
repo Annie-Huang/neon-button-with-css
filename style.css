@@ -44,6 +44,7 @@ body {
   position: relative;
 }
 
+/* This is big box shawdow around the button */
 .neon-button::after {
   content: '';
   position: absolute;
@@ -89,6 +90,9 @@ body {
   text-shadow: none;
 }
 
+.neon-button:hover::before {
+  opacity: 1;
+}
 .neon-button:hover::after {
   opacity: 1;
 }
