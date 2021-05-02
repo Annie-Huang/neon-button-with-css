@@ -51,9 +51,9 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: yellowgreen;
 
   box-shadow: 0 0 2em 0.5em var(--clr-neon);
+  opacity: 0;
 }
 
 /* The shadow part */
@@ -84,4 +84,8 @@ body {
   background: var(--clr-neon);
   color: var(--clr-bg);
   text-shadow: none;
+}
+
+.neon-button:hover::after {
+  opacity: 1;
 }
