@@ -47,7 +47,7 @@ body {
 .neon-button::before {
   content: '';
   position: absolute;
-  background: red;
+  background: var(--clr-neon);
   top: 120%;
   left: 0;
   width: 100%;
@@ -60,4 +60,6 @@ body {
 
   /* Make it blur a little, it is actually a very nice effect. look like the ground reflected the light from the top */
   filter: blur(1em);
+
+  opacity: 0.7; /* Make it less intensive */
 }
