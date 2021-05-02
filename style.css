@@ -27,7 +27,7 @@ body {
   color: var(--clr-neon);
 
   /* keep it em so everything will auto adjust according to the font-size */
-  border: currentColor 0.125em solid;
+  border: var(--clr-neon) 0.125em solid;
   padding: 0.25em 1em;
   border-radius: 0.25em;
 
@@ -62,4 +62,11 @@ body {
   filter: blur(1em);
 
   opacity: 0.7; /* Make it less intensive */
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  background: var(--clr-neon);
+  color: var(--clr-bg);
+  text-shadow: none;
 }
