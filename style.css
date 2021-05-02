@@ -52,6 +52,8 @@ body {
   left: 0;
   right: 0;
   background: yellowgreen;
+
+  box-shadow: 0 0 2em 0.5em var(--clr-neon);
 }
 
 /* The shadow part */
