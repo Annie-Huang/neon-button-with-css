@@ -57,4 +57,7 @@ body {
      The higher number of the perspective, the higher up we look down from.
   */
   transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+
+  /* Make it blur a little, it is actually a very nice effect. look like the ground reflected the light from the top */
+  filter: blur(1em);
 }
