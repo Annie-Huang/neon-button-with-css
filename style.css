@@ -44,7 +44,20 @@ body {
   position: relative;
 }
 
+.neon-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: yellowgreen;
+}
+
+/* The shadow part */
 .neon-button::before {
+  pointer-events: none; /* So It cannot be clicked and there is no cursor on when hover on the shadow */
+
   content: '';
   position: absolute;
   background: var(--clr-neon);
