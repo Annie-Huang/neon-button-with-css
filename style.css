@@ -56,5 +56,5 @@ body {
   /* perspective has to be in front. If it is the second element, it doesn't work
      The higher number of the perspective, the higher up we look down from.
   */
-  transform: perspective(1em) rotateX(40deg);
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
 }
